@@ -1,0 +1,45 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data
+data/raw/
+data/interim/
+data/processed/
+data/external/
+
+# Models and large files
+models/
+*.h5
+*.pkl
+*.joblib
+*.csv
+*.xlsx
+
+# Logs
+reports/logs/
+*.log
+
+# Environment files
+.env
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VSCode / PyCharm settings
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
