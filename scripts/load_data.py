@@ -30,3 +30,4 @@ final_df = pd.concat(all_dfs, ignore_index=True)
 final_df.to_csv("data/financial_data.csv", index=False)
 
 print("Data saved to data/financial_data.csv")
+
